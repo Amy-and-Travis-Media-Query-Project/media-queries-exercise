@@ -1,0 +1,9 @@
+.alert-info {
+    background-color: #CCFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+.alert-info > a {
+    text-decoration: none;
+    color: black;
+}
