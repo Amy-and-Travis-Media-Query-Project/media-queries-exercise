@@ -23,3 +23,19 @@ h1 {
     /*margin-right: auto;*/
     text-align: center;
 }
+
+.nav-links {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.nav-links > li {
+    background-color: #CCCCCC;
+    margin-bottom: 2.5%;
+    padding: 5%;
+}
+
+.header-img {
+
+}
