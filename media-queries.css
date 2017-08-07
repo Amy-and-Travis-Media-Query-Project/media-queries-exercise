@@ -36,6 +36,19 @@ h1 {
     padding: 5%;
 }
 
-.header-img {
+/*.header-img {
 
+} */
+
+.sub-section {
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.sub-section>* {
+    font-style: italic;
+}
+
+.sub-section>h2 {
+    font-size: 1.25em;
 }
