@@ -67,6 +67,16 @@ body {
         width: 30%;
         float: left;
     }
+
+    footer {
+        padding-top: 15em;
+        clear: both;
+        overflow: auto;
+    }
+
+    footer p {
+        float: left;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width:900px) {
@@ -105,6 +115,16 @@ body {
         width: 30%;
         float: left;
     }
+
+    footer {
+        padding-top: 15em;
+        clear: both;
+        overflow: auto;
+    }
+
+    footer p {
+        float: left;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -113,7 +133,6 @@ body {
         background-color: #CCFFFF;
         border: 1px solid #CCCCCC;
         text-align: center;
-        padding: 2.5% 0;
         font-size: .9em;
         display: block;
     }
@@ -121,6 +140,8 @@ body {
     .alert-info > a {
         text-decoration: none;
         color: black;
+        display: block;
+        padding: 4% 0;
     }
 
     h1 {
@@ -136,7 +157,11 @@ body {
     .nav-links > li {
         background-color: #CCCCCC;
         margin-bottom: 2.5%;
-        padding: 5%;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 4% 0;
     }
 
     .sub-section {
