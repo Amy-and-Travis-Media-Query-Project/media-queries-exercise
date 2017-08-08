@@ -8,31 +8,39 @@ body {
     max-width: 100%;
 }
 
+.nav-links {
+    list-style-type: none;
+    float: right;
+}
+
 @media screen and (min-width: 901px) {
     .header-img > img {
         width: 900px;
         margin: 15px auto;
     }
+    .header-img {
+        clear:both;
+    }
+    .nav-links > li {
+        display: inline-block;
+    }
+    .alert-info {
+        display: none;
+    }
 }
 
-
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width:900px) {
 
     h1 {
         float: left;
     }
 
-    .nav-links {
-        list-style-type: none;
-        float: right;
+    .alert-info {
+        display: none;
     }
 
     .nav-links > li {
         display: inline-block;
-    }
-
-    .alert-info {
-        display: none;
     }
 
     .main {
