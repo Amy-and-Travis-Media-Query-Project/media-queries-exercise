@@ -8,6 +8,14 @@ body {
     max-width: 100%;
 }
 
+@media screen and (min-width: 901px) {
+    .header-img > img {
+        width: 900px;
+        margin: 15px auto;
+    }
+}
+
+
 @media screen and (min-width: 769px) {
 
     h1 {
