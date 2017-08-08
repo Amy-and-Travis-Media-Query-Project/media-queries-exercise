@@ -10,22 +10,46 @@ body {
 
 .nav-links {
     list-style-type: none;
-    float: right;
 }
 
 @media screen and (min-width: 901px) {
     .header-img > img {
         width: 900px;
-        margin: 15px auto;
+        margin: 0 auto;
+        display: block;
     }
     .header-img {
         clear:both;
+        width: 100%;
     }
+
+    .nav-links {
+        padding-left: 0;
+        float: right;
+    }
+
     .nav-links > li {
         display: inline-block;
     }
     .alert-info {
         display: none;
+    }
+
+    h1 {
+        float: left;
+    }
+
+    .main {
+        box-sizing: border-box;
+        width:70%;
+        float: left;
+        padding-right:5%;
+    }
+
+    .sub-section {
+        box-sizing: border-box;
+        width: 30%;
+        float: left;
     }
 }
 
@@ -39,8 +63,14 @@ body {
         display: none;
     }
 
+    .nav-links {
+        float: right;
+        padding-left: 0;
+    }
+
     .nav-links > li {
         display: inline-block;
+        margin-right: 1em;
     }
 
     .main {
